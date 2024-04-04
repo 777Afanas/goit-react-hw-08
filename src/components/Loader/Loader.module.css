@@ -1,0 +1,16 @@
+.watch {
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.location {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.loaders {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #d1e2d3;
+    color: #555555;
+}

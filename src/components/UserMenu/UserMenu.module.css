@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.username {
+    font-weight: 700;
+}
+
+.btn {
+    margin-left: auto;
+    height: 44px;
+    align-self: center;
+    background-color: #213547;
+}
+
+.btn:hover {
+    border: none;
+    background-color: #131f2a;
+    color: white;
+    transition: 500ms;
+}
