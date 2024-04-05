@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <PageTitle>
-        <p>Welcome to your phonebook to keep your contacts close at hand!</p>
+        <p>Phonebook for your current contacts</p>
       </PageTitle>
     </div>
   );

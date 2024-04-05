@@ -20,8 +20,7 @@
 }
 
 .btn {
-    display: flex;
-    background-color: #213547;
+    display: flex;     
     margin-left: auto;
     margin-right: auto;
     border: none;

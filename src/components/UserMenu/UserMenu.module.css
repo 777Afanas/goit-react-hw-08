@@ -11,13 +11,12 @@
 .btn {
     margin-left: auto;
     height: 44px;
-    align-self: center;
-    background-color: #213547;
+    align-self: center;     
+    background-color: yellowgreen;
 }
 
 .btn:hover {
-    border: none;
-    background-color: #131f2a;
+    border: none;     
     color: white;
     transition: 500ms;
 }

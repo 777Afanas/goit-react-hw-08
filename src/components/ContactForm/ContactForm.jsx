@@ -4,7 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import { selectContacts } from "../../redux/contacts/selectors";
-import { addContact } from "../../redux/contactsOps";
+import { addContact } from "../../redux/contacts/operations";
 import ErrorToast from "../Toast/ErrorToast";
 import SuccessToast from "../Toast/SuccessToast";
 import { Toaster } from "react-hot-toast";
@@ -32,15 +32,7 @@ export default function ContactForm() {
     const dispatch = useDispatch();
     const contacts = useSelector(selectContacts);
 
-    // const handleSubmit = (values, actions) => {
-    //     dispatch(
-    //         addContact({                 
-    //             name: values.name,
-    //             number: values.number,
-    //         })
-    //     );
-    //     actions.resetForm();
-    // }; 
+    
 
      const handlerSubmit = (values, action) => {
     if (
